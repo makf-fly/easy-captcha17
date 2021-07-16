@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.geom.CubicCurve2D;
 import java.awt.geom.QuadCurve2D;
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Base64;
@@ -274,7 +275,7 @@ public abstract class Captcha extends Randoms {
     }
 
     public void setFont(int font, int style, float size) throws IOException, FontFormatException {
-        this.font = Font.createFont(Font.TRUETYPE_FONT, getClass().getResourceAsStream("/" + FONT_NAMES[font])).deriveFont(style, size);
+        this.font = Font.createFont(Font.TRUETYPE_FONT, new File(getClass().getResource("/" + FONT_NAMES[font]).getFile())).deriveFont(style, size);
     }
 
     public int getLen() {
