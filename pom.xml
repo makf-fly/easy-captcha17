@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.whvcse</groupId>
+    <groupId>com.github.makf-fly</groupId>
 
     <artifactId>easy-captcha</artifactId>
-    <version>1.6.2</version>
+    <version>1.0</version>
     <build>
         <plugins>
             <plugin>
@@ -22,7 +22,7 @@
 
     <name>EasyCaptcha</name>
     <description>Java web graphics verification code, support gif verification code.</description>
-    <url>https://github.com/whvcse/EasyCaptcha</url>
+
 
     <licenses>
         <license>
@@ -32,15 +32,10 @@
     </licenses>
     <developers>
         <developer>
-            <name>whvcse</name>
-            <email>whvcse@foxmail.com</email>
+            <name>makf</name>
+            <email>962171183@qq.com</email>
         </developer>
     </developers>
-    <scm>
-        <connection>scm:git@github.com:whvcse/EasyCaptcha.git</connection>
-        <developerConnection>scm:git@github.com:whvcse/EasyCaptcha.git</developerConnection>
-        <url>https://github.com/whvcse/EasyCaptcha</url>
-    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

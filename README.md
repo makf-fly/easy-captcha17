@@ -7,6 +7,10 @@
 ## 1.简介
 &emsp;Java图形验证码，支持gif、中文、算术等类型，可用于Java Web、JavaSE等项目。
 
+基于大佬 https://github.com/ele-admin/EasyCaptcha 主要升级JDK17 引入 jakarta.servlet模块
+
+有任何问题及时联系我
+
 ---
 
 ## 2.效果展示
