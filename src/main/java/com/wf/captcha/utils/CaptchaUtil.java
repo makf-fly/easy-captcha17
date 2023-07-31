@@ -1,13 +1,12 @@
 package com.wf.captcha.utils;
 
+import com.wf.captcha.SpecCaptcha;
+import com.wf.captcha.base.Captcha;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
 import java.awt.*;
 import java.io.IOException;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import com.wf.captcha.base.Captcha;
-import com.wf.captcha.SpecCaptcha;
 
 /**
  * 图形验证码工具类

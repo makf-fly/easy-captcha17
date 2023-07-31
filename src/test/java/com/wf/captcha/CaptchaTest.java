@@ -53,13 +53,13 @@ public class CaptchaTest {
 
     @Test
     public void testArit() throws Exception {
-        /*for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
             ArithmeticCaptcha specCaptcha = new ArithmeticCaptcha();
             specCaptcha.setLen(3);
             specCaptcha.setFont(i, 28f);
             System.out.println(specCaptcha.getArithmeticString() + " " + specCaptcha.text());
             specCaptcha.out(new FileOutputStream(new File("C:/Java/aa" + i + ".png")));
-        }*/
+        }
     }
 
     @Test
