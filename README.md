@@ -1,4 +1,4 @@
-# EasyCaptcha
+# EasyCaptcha17
 
 ![MavenCentral](https://img.shields.io/maven-central/v/com.github.whvcse/easy-captcha?style=flat-square)
 ![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?style=flat-square)
@@ -56,36 +56,61 @@
 
 ## 3.导入项目
 
-### 3.1.gradle方式的引入
-```text
-dependencies {
-    compile 'com.github.whvcse:easy-captcha:1.6.2'
-}
-```
+[//]: # (### 3.1.gradle方式的引入)
 
-### 3.2.maven方式引入
-```xml
-<dependencies>
-   <dependency>
-      <groupId>com.github.whvcse</groupId>
-      <artifactId>easy-captcha</artifactId>
-      <version>1.6.2</version>
-   </dependency>
-</dependencies>
-```
+[//]: # (```text)
 
-### 3.3.jar包下载
-[easy-captcha-1.6.2.jar](https://gitee.com/whvse/EasyCaptcha/releases)
+[//]: # (dependencies {)
 
-maven导入jar包，在项目根目录创建`libs`文件夹，然后pom.xml添加如下：
-```
-<dependency>
-  <groupId>com.github.whvcse</groupId>
-  <artifactId>easy-captcha</artifactId>
-  <version>1.6.1</version>
-  <systemPath>${basedir}/libs/easy-captcha-1.6.2.jar</systemPath>
-</dependency>
-```
+[//]: # (    compile 'com.github.whvcse:easy-captcha:1.6.2')
+
+[//]: # (})
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (### 3.2.maven方式引入)
+
+[//]: # (```xml)
+
+[//]: # (<dependencies>)
+
+[//]: # (   <dependency>)
+
+[//]: # (      <groupId>com.github.whvcse</groupId>)
+
+[//]: # (      <artifactId>easy-captcha</artifactId>)
+
+[//]: # (      <version>1.6.2</version>)
+
+[//]: # (   </dependency>)
+
+[//]: # (</dependencies>)
+
+[//]: # (```)
+
+[//]: # (### 3.3.jar包下载)
+
+[//]: # ([easy-captcha-1.6.2.jar]&#40;https://gitee.com/whvse/EasyCaptcha/releases&#41;)
+
+[//]: # ()
+[//]: # (maven导入jar包，在项目根目录创建`libs`文件夹，然后pom.xml添加如下：)
+
+[//]: # (```)
+
+[//]: # (<dependency>)
+
+[//]: # (  <groupId>com.github.whvcse</groupId>)
+
+[//]: # (  <artifactId>easy-captcha</artifactId>)
+
+[//]: # (  <version>1.6.1</version>)
+
+[//]: # (  <systemPath>${basedir}/libs/easy-captcha-1.6.2.jar</systemPath>)
+
+[//]: # (</dependency>)
+
+[//]: # (```)
 
 ---
 
